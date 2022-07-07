@@ -1,0 +1,196 @@
+print("\72\101\108\108\111\32\119\111\114\108\100\33")
+local d = Instance.new("\83\99\114\101\101\110\71\117\105")
+local i = Instance.new("\70\114\97\109\101")
+local e = Instance.new("\84\101\120\116\76\97\98\101\108")
+local _ = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local j_ = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+d.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105")
+i.Parent = d
+i.BackgroundColor3 = Color3.fromRGB(153, 255, 252)
+i.BorderColor3 = Color3.fromRGB(130, 203, 255)
+i.BorderSizePixel = 0
+i.Position = UDim2.new(0.00729927002, 0, 0.679316878, 0)
+i.Size = UDim2.new(0, 335, 0, 158)
+e.Parent = i
+e.BackgroundColor3 = Color3.fromRGB(6, 255, 214)
+e.BackgroundTransparency = 1.000
+e.BorderSizePixel = 0
+e.Position = UDim2.new(-0.00165595347, 0, -0.00422739983, 0)
+e.Size = UDim2.new(0, 335, 0, 50)
+e.Font = Enum.Font.Gotham
+e.Text = "\68\111\111\109\115\112\105\114\101\32\77\117\115\107\32\88"
+e.TextColor3 = Color3.fromRGB(0, 0, 0)
+e.TextSize = 24.000
+_.Name = "\71\85\73\49"
+_.Parent = i
+_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_.BorderSizePixel = 0
+_.Position = UDim2.new(0.0417910442, 0, 0.310126573, 0)
+_.Size = UDim2.new(0, 106, 0, 50)
+_.Font = Enum.Font.Gotham
+_.Text = "\71\85\73\32\49"
+_.TextColor3 = Color3.fromRGB(0, 0, 0)
+_.TextSize = 14.000
+_.MouseButton1Down:connect(function()
+ 
+ 
+local mj = Instance.new("\83\99\114\101\101\110\71\117\105")
+local fm = Instance.new("\70\114\97\109\101")
+local nf = Instance.new("\70\114\97\109\101")
+local bn = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local hb = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local oh = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local ko = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local a = Instance.new("\84\101\120\116\76\97\98\101\108")
+mj.Name = "\68\111\111\109\71\117\105"
+mj.Parent = game.CoreGui
+fm.Name = "\116\98"
+fm.Parent = mj
+fm.BackgroundColor3 = Color3.new(0.0823529, 0.0784314, 0.0823529)
+fm.BorderSizePixel = 0
+fm.Position = UDim2.new(-0, 0,0.484, 0)
+fm.Size = UDim2.new(0, 130, 0, 19)
+fm.Draggable = true
+nf.Name = "\119\100"
+nf.Parent = fm
+nf.BackgroundColor3 = Color3.new(0.176471, 0.172549, 0.176471)
+nf.BorderSizePixel = 0
+nf.Position = UDim2.new(0, 0, 1, 0)
+nf.Size = UDim2.new(0, 130, 0, 114)
+bn.Name = "\121\121"
+bn.Parent = nf
+bn.BackgroundColor3 = Color3.new(0.960784, 0.803922, 0.188235)
+bn.BorderSizePixel = 0
+bn.Position = UDim2.new(0.100000024, 0, 0.0865384638, 0)
+bn.Size = UDim2.new(0, 104, 0, 23)
+bn.Font = Enum.Font.SourceSans
+bn.Text = "\89\101\108\108\111\119"
+bn.TextColor3 = Color3.new(1, 1, 1)
+bn.TextScaled = true
+bn.TextSize = 14
+bn.TextStrokeTransparency = 0.5
+bn.TextWrapped = true
+hb.Name = "\103\103"
+hb.Parent = nf
+hb.BackgroundColor3 = Color3.new(0.294118, 0.592157, 0.294118)
+hb.BorderSizePixel = 0
+hb.Position = UDim2.new(0.100000024, 0, 0.290148437, 0)
+hb.Size = UDim2.new(0, 104, 0, 23)
+hb.Font = Enum.Font.SourceSans
+hb.Text = "\71\114\101\101\110"
+hb.TextColor3 = Color3.new(1, 1, 1)
+hb.TextScaled = true
+hb.TextSize = 14
+hb.TextStrokeTransparency = 0.5
+hb.TextWrapped = true
+oh.Name = "\98\98"
+oh.Parent = nf
+oh.BackgroundColor3 = Color3.new(0.0509804, 0.411765, 0.67451)
+oh.BorderSizePixel = 0
+oh.Position = UDim2.new(0.100000024, 0, 0.49375838, 0)
+oh.Size = UDim2.new(0, 104, 0, 23)
+oh.Font = Enum.Font.SourceSans
+oh.Text = "\66\108\117\101"
+oh.TextColor3 = Color3.new(1, 1, 1)
+oh.TextScaled = true
+oh.TextSize = 14
+oh.TextStrokeTransparency = 0.5
+oh.TextWrapped = true
+ko.Name = "\114\114"
+ko.Parent = nf
+ko.BackgroundColor3 = Color3.new(0.768628, 0.156863, 0.109804)
+ko.BorderSizePixel = 0
+ko.Position = UDim2.new(0.100000024, 0, 0.688596487, 0)
+ko.Size = UDim2.new(0, 104, 0, 23)
+ko.Font = Enum.Font.SourceSans
+ko.Text = "\82\101\100"
+ko.TextColor3 = Color3.new(1, 1, 1)
+ko.TextScaled = true
+ko.TextSize = 14
+ko.TextStrokeTransparency = 0.5
+ko.TextWrapped = true
+a.Name = "\116\105\116\108\101"
+a.Parent = fm
+a.BackgroundColor3 = Color3.new(1, 1, 1)
+a.BackgroundTransparency = 1
+a.Size = UDim2.new(0, 130, 0, 19)
+a.Font = Enum.Font.SourceSans
+a.Text = "\68\111\111\109\71\117\105"
+a.TextColor3 = Color3.new(1, 1, 1)
+a.TextScaled = true
+a.TextSize = 14
+a.TextWrapped = true
+function b(h,o,k)
+local p = game.Players.LocalPlayer.Character
+p:MoveTo(Vector3.new(h, o, k))
+end
+bn.MouseButton1Click:connect(function()
+b(131.266, 24.799, -1.551)
+end)
+oh.MouseButton1Click:connect(function()
+b(-0.413, 24.799, 131.2)
+end)
+hb.MouseButton1Click:connect(function()
+b(-0.413, 24.799, -131.2)
+end)
+ko.MouseButton1Click:connect(function()
+b(-131.266, 24.799, -1.551)
+end)
+end)
+j_.Name = "\71\85\73\50"
+j_.Parent = i
+j_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+j_.BorderSizePixel = 0
+j_.Position = UDim2.new(0.594029844, 0, 0.310126573, 0)
+j_.Size = UDim2.new(0, 106, 0, 50)
+j_.Font = Enum.Font.Gotham
+j_.Text = "\71\85\73\32\50"
+j_.TextColor3 = Color3.fromRGB(0, 0, 0)
+j_.TextSize = 14.000
+j_.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/NguHCk5t'),true))()
+end)
+local function BWFZ_fake_c() 
+local c = Instance.new('LocalScript', i)
+function g(l) return math.acos(math.cos(l*math.pi))/math.pi end
+counter = 0
+while wait(0.1)do
+ c.Parent.BackgroundColor3 = Color3.fromHSV(g(counter),1,1)
+ 
+ counter = counter + 0.01
+end
+end
+coroutine.wrap(BWFZ_fake_c)()
+local function EWSBZQ_fake_c() 
+local c = Instance.new('LocalScript', e)
+function g(l) return math.acos(math.cos(l*math.pi))/math.pi end
+counter = 0
+while wait(0.1)do
+ c.Parent.BackgroundColor3 = Color3.fromHSV(g(counter),1,1)
+ 
+ counter = counter + 0.01
+end
+end
+coroutine.wrap(EWSBZQ_fake_c)()
+local function UHCXKUD_fake_c() 
+local c = Instance.new('LocalScript', _)
+function g(l) return math.acos(math.cos(l*math.pi))/math.pi end
+counter = 0
+while wait(0.1)do
+ c.Parent.BackgroundColor3 = Color3.fromHSV(g(counter),1,1)
+ 
+ counter = counter + 0.01
+end
+end
+coroutine.wrap(UHCXKUD_fake_c)()
+local function QSVXVF_fake_c() 
+local c = Instance.new('LocalScript', j_)
+function g(l) return math.acos(math.cos(l*math.pi))/math.pi end
+counter = 0
+while wait(0.1)do
+ c.Parent.BackgroundColor3 = Color3.fromHSV(g(counter),1,1)
+ 
+ counter = counter + 0.01
+end
+end
+coroutine.wrap(QSVXVF_fake_c)()
